@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(16, 175, 248);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+
+.name-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2px;
+    margin-bottom: 1rem;
+}
+
+
+.email-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 8px;
+    margin-bottom: 1rem;
+}
+
+
+.password-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 8px;
+    margin-bottom: 1rem;
+}
+
+
+input {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 2rem;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.button-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.fullname-alert {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.email-alert {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.password-alert {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
